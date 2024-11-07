@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+<title>Survey Form</title>
+  </head>
+
+  <body>
+
+    <h1 id="title">Daly´s undersöknings formulär</h1>
+    
+    <p id="description">Vi värdesätter din åsikt – tack för att du hjälper oss att bli bättre!</p>
+     
+    <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
+     <label id="name-label" for="name">Sami:
+     <input id="name" type="text" name="Sami" required placeholder="Ange ditt namn"/></label>
+     <label id="email-label" for="email">email:
+     <input id="email" type="email" name="email" required placeholder="info@example.com"/></label>
+     <label id="number-label" for="number">Ange din ålder:
+       <input id="number" type="number" name="number" min="12" max="120" required placeholder="nummer"/></label>
+     
+       <label for="dropdown">Beskriv din nuvarande roll?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">student</option>
+            <option value="2">arbetslös</option>
+            <option value="3">arbetar</option>
+            <option value="4">frilansar</option>
+          </select>
+          </label>
+
+    <fieldset>
+        <legend>vad tyckte du om designen på sidan:</legend>
+        <label><input type="radio" name="layout" value="layout" required> Inte bra</label>
+        <label><input type="radio" name="layout" value="layout"> Bra</label>
+        <label><input type="radio" name="layout" value="layout"> Mycket bra</label>
+        <label><input type="radio" name="layout" value="layout"> perfektion</label>
+        
+    </fieldset>
+   <fieldset>
+        
+    <legend>Användarupplevelsen på sidan:</legend>
+        <label><input type="checkbox" name="ux-" value="ux"> Dålig</label>
+        <label><input type="checkbox" name="innehåll" value="inehåll">acceptabel </label>
+        <label><input type="radio" name="layout" value="layout"> bra</label>
+        <label><input type="radio" name="layout" value="layout"> mycket bra</label>
+    </fieldset>
+
+    <label for="kommentarer">Ytterligare kommentarer:</label>
+    <textarea id="kommentarer" name="kommentarer"></textarea>
+
+    <button id="submit" type="submit">Skicka</button>
+          
+
+    </form>
+
+   </body>
+  </html>
+
+
+
+
+
+

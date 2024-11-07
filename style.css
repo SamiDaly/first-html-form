@@ -1,0 +1,64 @@
+
+body {
+    background-color: rgba(171, 160, 228, 0.482); 
+    color: rgb(17, 3, 3); 
+    font-family: Arial, sans-serif; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    margin: 0; 
+    padding-top: 70px;
+}
+
+
+#title {
+    font-size:2em; 
+    margin-bottom: 0: 
+
+}
+
+
+#description {
+    font-size: 1.2em; 
+    margin-bottom: 30px; 
+}
+
+
+#survey-form {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 40px; 
+    padding: 40px; 
+     
+    width: 350px 
+}
+
+
+label {
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+
+
+textarea {
+    background-color: antiquewhite;
+    color: purple;
+    height: 100px; 
+}
+
+
+button {
+    background-color: #6200ea; 
+    color: white; 
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #3700b3; 
+
